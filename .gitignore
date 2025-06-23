@@ -1,0 +1,40 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Entornos virtuales
+venv/
+env/
+.env/
+
+# Dependencias de Python (si usas un entorno virtual)
+Pipfile.lock
+poetry.lock
+node_modules/
+*.egg-info/
+
+# Archivos de configuración del entorno local
+*.env
+*.env.*
+*.flaskenv
+
+# Archivos de configuración del editor (si usas VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+
+# Archivos de caché de la aplicación
+*.bak
+*.swp
+
+# Dependencias de contenedores y Docker
+docker-compose.override.yml
+.docker/
+
+# Otros archivos que no son necesarios
+*.DS_Store
+*.vscode
